@@ -6,6 +6,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+section{
+    margin-top: 130px;
+}
 
 .btn-primary{
     color:#fff;
@@ -88,7 +91,7 @@ nav ul{
 }
 .section-title{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 
@@ -115,3 +118,28 @@ nav ul{
     font-size: 20px;
     color: #474747;
 }
+
+/* What I do style */
+
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.skill-description{
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* resume style */
