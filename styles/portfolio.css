@@ -28,6 +28,19 @@ section{
     background-repeat: no-repeat;
     background-position:bottom right, left ;
 }
+
+.call-btn{
+    color:#FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    margin-left: 10px;
+    padding:0 20px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
