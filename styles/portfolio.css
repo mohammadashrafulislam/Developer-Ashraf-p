@@ -218,3 +218,59 @@ input{
 .contact a{
     text-decoration: none;
 }
+.hide{
+    display: none;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width:576px) {
+     .header{
+    background-image: none;
+     }
+
+    .skills-container, .banner, .resume-content, .about-info-container, .contact, nav{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+     nav ul{
+        flex-direction: column;
+     }
+    .about, .contact{
+        padding: 20px;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 0 0 10px;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .btn-primary{
+        margin: 10px 0;
+    }
+    .call-btn{
+        margin: 0;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .about, .contact{
+        padding: 20px;
+        gap: 10px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 0 0 15px;
+    }
+    .skills-container, .resume-content, .about-info-container, .contact{
+        padding: 40px;
+    }
+    .skills-container{
+        flex-wrap: wrap;
+    }
+}
