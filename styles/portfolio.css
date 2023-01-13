@@ -236,6 +236,15 @@ input{
     }
      nav ul{
         flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        padding: 20px;
+     }
+     h2.nav-title {
+        padding: 20px;
+    }
+     nav li{
+        margin: 0;
      }
     .about, .contact{
         padding: 20px;
@@ -261,7 +270,7 @@ input{
         padding: 20px;
         gap: 10px;
     }
-    .contact{
+    .contact, .banner{
         flex-direction: column;
     }
     .contact input[type="text"], input[type="email"], textarea{
@@ -273,4 +282,9 @@ input{
     .skills-container{
         flex-wrap: wrap;
     }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+     }
 }
